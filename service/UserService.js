@@ -1,4 +1,4 @@
-const { User } = require('../models/User')
+const { User } = require('../models')
 
 const user = new User(1, 'Pedro', 'pedro@outlook.com', 'pedro1992', '@#@W$fa1')
 
