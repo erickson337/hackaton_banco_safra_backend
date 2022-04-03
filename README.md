@@ -3,6 +3,8 @@ Backend
 ### Necessário
   - Node version > 10
   - NPM
+### Opcional
+ - Docker
 ### Instalação
   - Em caso de utilização do banco de dados, utilizar os comandos abaixo:
     - Crie um arquivo .env a partir do .env.example para configuração do banco de dados
@@ -29,4 +31,4 @@ Backend
   - Build: ``` docker build . -t hackaton/backend-node ```
   - Rodando docker:
     ``` docker run -it -p 8001:8001 hackaton/backend-node ```
-  - Acessando o link: ``` http://localhost:8000/api/users/1 ```
+  - Acessando o link: ``` http://localhost:8001/api/users/1 ```
